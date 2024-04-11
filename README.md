@@ -4,7 +4,7 @@ Algorithm used for assigning reviewers for the Cognitive Computational Neuroscie
 This algorithm was based on ideas and code from an earlier version, which you can read about here: [https://github.com/titipata/paper-reviewer-matcher/tree/master](https://github.com/titipata/paper-reviewer-matcher/tree/master)
 
 The main updates from the earlier version are added constraints to the reviewer-paper matching optimization related to:
-1. Conflicts of interest related to papers authored by a specific reviewer and all of the papers authors by the reviewer's co-authors
+1. Conflicts of interest corresponding to a reviewer's own submissions, and any submission from the reviewer's co-authors
 2. Diversification of the paper assignment, such that a paper is less likely to be reviewed by co-authors
 
 The assignments can be obtained using the following command:
